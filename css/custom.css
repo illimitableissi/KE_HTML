@@ -20,3 +20,9 @@
 		height: 35px;
 		width: auto;
 }
+
+@media all and (max-width: 650px){
+	.logo {
+		width: 70%;
+	}
+}
