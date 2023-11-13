@@ -28785,11 +28785,11 @@ label.error {
 	Footer
 -----------------------------------------------------------------*/
 #footer {
-  --cnvs-footer-top-border: 5px solid rgba(var(--cnvs-contrast-rgb), 0.15);
-  --cnvs-copyrights-link-color: var(--cnvs-contrast-500);
+  /* --cnvs-footer-top-border: 5px solid rgba(var(--cnvs-contrast-rgb), 0.15); */
+  /* --cnvs-copyrights-link-color: var(--cnvs-contrast-500); */
   position: relative;
-  background-color: var(--cnvs-footer-bg);
-  border-top: var(--cnvs-footer-top-border);
+  /* background-color: var(--cnvs-footer-bg);
+  border-top: var(--cnvs-footer-top-border); */
 }
 
 @media (min-width: 992px) {
