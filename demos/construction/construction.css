@@ -11,7 +11,8 @@
 }
 
 #header {
-	background-color: #F9F9F9;
+	/* background-color: #F9F9F9; */
+	background-color: white;
 	--cnvs-primary-menu-font-size: 0.8125rem;
 	--cnvs-primary-menu-submenu-font-size: .75rem;
 	--cnvs-primary-menu-submenu-font-weight: 600;
