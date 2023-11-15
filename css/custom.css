@@ -21,8 +21,47 @@
 		width: auto;
 }
 
-@media all and (max-width: 650px){
+
+
+.gallery {
+	background: #EEE;
+  }
+  
+  .gallery-cell {
+	width: 30%;
+	height: 200px;
+	margin-right: 10px;
+	background: #8C8;
+	counter-increment: gallery-cell;
+  }
+
+  .gallery-title {
+	margin-top: 2rem 0;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+	display: block;
+	text-align: center;
+	content: counter(gallery-cell);
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
+  }
+
+  @media all and (max-width: 650px){
 	.logo {
 		width: 70%;
 	}
+
+	  
+	.gallery-cell {
+		width: 66%;
+		height: 200px;
+		margin-right: 10px;
+		background: #8C8;
+		counter-increment: gallery-cell;
+	  }
 }
+
+  
